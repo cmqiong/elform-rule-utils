@@ -18,6 +18,15 @@ ruleEx('zh_en_num_blank_hyphen')
 { pattern: /^[\u4e00-\u9fa5a-zA-Z0-9\s-]+$/, message: '只能输入中英文、数字、空格、‘-’，不支持其他特殊字符', trigger: 'blur' }
 ```
 
+单独使用正则库
+```
+import regExp from 'elform-rule-utils/regExp'
+
+const testStr = 'I am a test **'
+regExp.zh_en_num_blank_hyphen.test(testStr)      // false
+```
+
+
 ## Extend patterns
 ** 注意：扩展规则必须要在使用它之前完成 **
 ```

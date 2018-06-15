@@ -2,10 +2,6 @@
   "name": "elform-rule-utils",
   "version": "1.0.1",
   "description": "整合了一些常用的表单验证正则规则，返回 elementUI Form 的表单验证规则",
-  "main": "index.js",
-  "bin": {
-    "elform-rule-utils": "./index.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmqiong/elform-rule-utils.git"
@@ -16,11 +12,11 @@
     "elementUI form",
     "elementUI rules"
   ],
-  "author": "chenminqiong",
+  "author": "cmqiong",
   "license": "ISC",
   "maintainers": [
     {
-      "name": "chenminqiong",
+      "name": "cmqiong",
       "email": "1397311270@qq.com"
     }
   ],
