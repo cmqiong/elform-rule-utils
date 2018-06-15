@@ -19,6 +19,7 @@ ruleEx('zh_en_num_blank_hyphen')
 ```
 
 ## Extend patterns
+** 注意：扩展规则必须要在使用它之前完成 **
 ```
 import { extendRuleMap } from 'elform-rule-utils'
 
