@@ -110,7 +110,7 @@ export function getRuleMap() {
     },
     zh_en_num_blank_hyphen: {
       pattern: regExp.zh_en_num_blank_hyphen,
-      message: '只能输入中英文、数字、空格、‘-’，不支持其他特殊字符'
+      message: '只能输入中英文、数字、空格、-，不支持其他特殊字符'
     },
     firstNotBlank: {
       pattern: regExp.firstNotBlank,
